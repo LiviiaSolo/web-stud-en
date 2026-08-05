@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Creative studio so zameraním na 3D vizualizácie interiérov a exteriérov."
+    />
+
+    <title>Nehnuteľnosti</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="/" class="logo">
+          <img src="assets/images/stud4.png"class="logo-img" />
+          <span class="logo-text">
+            <span class="logo-on">Web</span><span class="logo-business">Stud</span>
+          </span>
+        </a>
+
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About Us</a>
+
+          <div class="nav-item has-submenu">
+              <a href="index.html#services" class="submenu-toggle">
+                Services <span class="arrow"></span>
+              </a>
+            <ul class="submenu">
+              <li><a href="web.html">Websites</a></li>
+              <li><a href="video-production.html">Video Production</a></li>
+              <li><a href="visualization.html">Visualization</a></li>              
+            </ul>
+          </div>
+
+          <a href="real-estate.html">Real Estate</a>
+          <a href="#footer">Contact</a>
+
+            <a href="contact.html#form" class="header-btn mobile-btn">
+              Contact Us
+            </a>
+        </nav>
+
+        <div class="header-contact">
+          <a href="contact.html#form" class="header-btn"
+            >Contact Us</a
+          >
+        </div>
+
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Real-hero -->
+    <section class="real-hero" id="real-hero">
+      <div class="hero-bg">
+        <img src="assets/images/realistka2.png" alt="Real estate sales" />
+        <div class="hero-gradient"></div>
+      </div>
+
+      <div class="container fade-in">
+        <div class="real-text-web">
+          <h1>Sale <span class="green">& </span>Rent</h1>
+
+          <p class="hero-subtitle">
+            We combine marketing, video, and visualizations for faster and more effective sales.
+          </p>
+
+          <a href="#" data-modal="projectModal" class="btn btn-primary fade-in">
+            Offer your Property <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section real-services -->
+    <section class="real-services" id="real-services">
+      <div class="container">
+        <h2 class="section-title fade-in">Our services</h2>
+        <p class="section-subtitle fade-in">
+          Everything you need for successful property sales and rentals
+        </p>
+
+        <div class="real-grid fade-in" id="Sale">
+
+          <!-- SALE -->
+          <div class="real-card">
+            <div class="real-card-top fade-in">
+              <h3>Property sales</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p fade-in>
+                We help you sell your property faster and at a better price.
+              </p>
+
+              <ul class="real-list fade-in">
+                <li>Pricing strategy</li>
+                <li>Professional presentation</li>
+                <li>Client communication</li>
+              </ul>
+
+              <a href="#!" class="card-btn fade-in">Learn more</a>
+            </div>
+          </div>
+
+          <!-- RENT -->
+          <div class="real-card">
+            <div class="real-card-top fade-in">
+              <h3>Renting</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p fade-in>We find a reliable tenant without unnecessary hassle.</p>
+
+              <ul class="real-list fade-in">
+                <li>Tenant selection</li>
+                <li>Property viewings</li>
+                <li>Contracts</li>
+              </ul>
+
+              <a href="#!" class="card-btn fade-in">Learn more</a>
+            </div>
+          </div>
+
+          <!-- VIDEO -->
+          <div class="real-card">
+            <div class="real-card-top fade-in">
+              <h3>Video tours</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p fade-in>Video that captures the atmosphere and increases interest.</p>
+
+              <ul class="real-list fade-in">
+                <li>Cinematic shots</li>
+                <li>Drone videos</li>
+                <li>Social media formats</li>
+              </ul>
+
+              <a href="#!" class="card-btn fade-in">Learn more</a>
+            </div>
+          </div>
+
+          <!-- VISUALIZATIONS -->
+          <div class="real-card">
+            <div class="real-card-top fade-in">
+              <h3>3D Visualizations</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p fade-in>Show the potential of a space even before it’s built.</p>
+
+              <ul class="real-list fade-in">
+                <li>3D interiors</li>
+                <li>Exteriors</li>
+                <li>Development projects</li>
+              </ul>
+
+              <a href="#!" class="card-btn fade-in">Learn more</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section real-about -->
+    <section class="real-about">
+      <div class="container real-about-container">
+        <h2 class="section-title fade-in">Sell faster and more profitably</h2>
+        <p class="section-subtitle real-subtitle fade-in">
+          A modern property presentation increases interest and the perceived value of your offer.
+        </p>
+
+        <div class="real-about-content">
+          <div class="real-text fade-in">
+            <p>
+              We help property owners, developers, and real estate agencies sell
+              real estate more efficiently and without unnecessary delays.
+            </p>
+
+            <p>
+              Through video, visualizations, and thoughtful marketing, we increase
+              the attractiveness of your offer and speed up the entire sales process.
+            </p>
+
+            <ul class="real-benefits fade-in">
+              <li>Professional presentation</li>
+              <li>Video tours</li>
+              <li>3D visualizations</li>
+              <li>Marketing & advertising</li>
+            </ul>
+          </div>
+
+          <div class="slider-wrapper fade-in">
+            <div class="img-container">
+              <div class="box">
+                <img src="assets/images/realty/r6.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="assets/images/realty/r2.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="assets/images/realty/r3.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="assets/images/realty/r4.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="assets/images/realty/r5.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="assets/images/realty/r1.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="assets/images/realty/r7.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="assets/images/realty/r8.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="slider-nav">
+              <button class="nav-slider prev">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="nav-slider next">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- Section real-experts -->
+    <section class="real-experts">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">How we help you</h2>
+          <p class="section-subtitle fade-in">
+            Effective property sales thanks to the right strategy and presentation
+          </p>
+        </div>
+
+        <div class="real-steps">
+          <div class="real-step step-blue fade-in">
+            <div class="real-icon">
+              <i class="fa-solid fa-chart-line fa-fw"></i>
+            </div>
+            <h3>Analysis & strategy</h3>
+            <p>We set the right price and sales approach.</p>
+          </div>
+
+          <div class="real-step step-purple fade-in">
+            <div class="real-icon">
+              <i class="fa-solid fa-camera-retro fa-fw"></i>
+            </div>
+            <h3>Presentation</h3>
+            <p>Video, visualizations, and content that captures attention.</p>
+          </div>
+
+          <div class="real-step step-orange fade-in">
+            <div class="real-icon">
+              <i class="fa-solid fa-bullhorn fa-fw"></i>
+            </div>
+            <h3>Marketing</h3>
+            <p>We get your offer in front of the right people.</p>
+          </div>
+
+          <div class="real-step step-red fade-in">
+            <div class="real-icon">
+              <i class="fa-solid fa-key fa-fw"></i>
+            </div>
+            <h3>Sale / rent</h3>
+            <p>Communication, viewings, and closing the deal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          Frequently Asked Questions
+          <span class="underline"></span>
+        </h2>
+
+        <p class="section-subtitle fade-in">
+          Quick answers to your questions about our services.
+        </p>
+
+        <div class="faq-wrapper">
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                How much does property selling cost?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                The price depends on the scope of services. In most cases, you pay only after a successful sale.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                Do I need to pay anything upfront?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Usually no. Some services may require a small initial fee.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                How long does the selling process take?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                It depends on the market, but professional presentation significantly speeds up the process.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                What do you handle for me?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Everything from strategy and marketing to viewings and closing the sale.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                Why video and visualizations?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                They increase interest, trust, and help sell faster and more profitably.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="section-title fade-in">Do you have more questions?</h2>
+        <p class="cta-text fade-in">We’ll gladly explain everything during a free, non‑binding consultation.</p>
+
+        <a href="contact.html" class="btn btn-primary fade-in">Contact us</a>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+
+        <div class="footer-col footer-brand fade-in">
+          <span class="logo-text">
+            <span class="logo-on">Web</span><span class="logo-business">Stud</span>
+          </span>
+          <p class="footer-text">
+            Modern solutions in the field of marketing, <br>web development, and real estate.
+          </p>
+        </div>
+
+        <div class="footer-col fade-in">
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: xxxxxxxxx@gmail.com</li>
+            <li>Phone: +421 XXX XXX XXX</li>
+            <li>City: Bystrica</li>
+          </ul>
+        </div>
+
+        <div class="footer-col fade-in">
+          <h4>Follow Us</h4>
+
+          <div class="footer-socials">
+            <!-- Instagram -->
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7 2C4.2 2 2 4.2 2 7v10c0 
+                2.8 2.2 5 5 5h10c2.8 0 5-2.2 
+                5-5V7c0-2.8-2.2-5-5-5H7zm10 
+                2a3 3 0 0 1 3 3v10a3 3 0 0 
+                1-3 3H7a3 3 0 0 1-3-3V7a3 3 
+                0 0 1 3-3h10zm-5 3a5 5 0 1 0 
+                0 10 5 5 0 0 0 0-10zm0 
+                2a3 3 0 1 1 0 6 3 3 0 0 
+                1 0-6zm4.8-2.8a1 1 0 1 
+                0 0 2 1 1 0 0 0 0-2z"/>
+              </svg>
+            </a>
+
+            <!-- YouTube -->
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21.8 8s-.2-1.4-.8-2c-.8-.8-1.7-.8-2.1-.9C15.9 
+                5 12 5 12 5h0s-3.9 0-6.9.1c-.4 
+                0-1.3.1-2.1.9-.6.6-.8 
+                2-.8 2S2 9.6 2 11.2v1.6C2 
+                14.4 2.2 16 2.2 16s.2 1.4.8 
+                2c.8.8 1.9.8 2.4.9 1.7.2 
+                6.6.1 6.6.1s3.9 0 6.9-.1c.4 
+                0 1.3-.1 2.1-.9.6-.6.8-2 
+                .8-2s.2-1.6.2-3.2v-1.6C22 
+                9.6 21.8 8 21.8 8zM10 
+                14.5v-5l5 2.5-5 2.5z"/>
+              </svg>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 3.9A10 10 0 0 0 3.3 
+                17.4L2 22l4.7-1.2A10 10 0 1 0 
+                20 3.9zm-8 16.3a8.2 8.2 0 0 
+                1-4.2-1.1l-.3-.2-2.8.7.7-2.7-.2-.3a8.2 
+                8.2 0 1 1 6.8 3.6zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.3-.1-.4.1-.1.2-.5.8-.6 
+                1-.1.2-.2.2-.4.1-1.1-.5-1.9-1.1-2.6-2.2-.2-.2 
+                0-.3.1-.4.1-.1.2-.3.4-.5.1-.2.2-.3.3-.5.1-.2 
+                0-.3 0-.4 0-.1-.4-1-.6-1.4-.2-.4-.3-.3-.4-.3h-.4c-.1 
+                0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 
+                1.6 2.5 4 3.4.6.2 1 .3 1.3.4.6.2 1.1.1 
+                1.5.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 
+                .2-1.1-.1-.1-.2-.1-.4-.2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 WebStud. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- Property Offer Modal -->
+    <div class="modal" id="projectModal">
+      <div class="modal-overlay"></div>
+
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+
+        <h2>Offer your Property</h2>
+        <p class="modal-subtitle">
+          Fill out the form and we’ll get back to you as soon as possible.
+        </p>
+
+        <form class="modal-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Phone" />
+
+          <select>
+            <option>Property type</option>
+            <option>Apartment</option>
+            <option>House</option>
+            <option>Commercial space</option>
+          </select>
+
+          <textarea placeholder="Short description of the property"></textarea>
+
+          <button type="submit" class="btn btn-primary">Send request</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

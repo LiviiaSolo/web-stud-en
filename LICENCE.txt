@@ -1,0 +1,21 @@
+Web‑Stud Template License
+Copyright © 2026 Liviia Solo
+
+Permission is granted to the purchaser to use this template for:
+– personal projects
+– commercial projects
+– client work
+– portfolio websites
+
+The purchaser may modify the template, change the design, structure, styles, and scripts as needed for their project.
+
+Restrictions:
+– Resale, redistribution, or sharing of the template is prohibited.
+– Publishing the full source code publicly is prohibited.
+– Claiming authorship of the template is prohibited.
+– Using the template to create a competing product or template is prohibited.
+
+This license applies to all files included in the purchased version:
+HTML, CSS, JavaScript, images, assets, documentation, and all additional materials.
+
+By purchasing or using this template, you agree to the terms of this license.
