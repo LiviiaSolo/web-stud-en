@@ -29,24 +29,25 @@ The complete template includes:
 
 ## Folder Structure
 web-stud/
-│
-├── index.html
-├── about.html
-├── services.html
-├── websites.html
-├── video.html
-├── vizual.html
-├── real-estate.html
-├── contact.html
-│
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── img/
-│   └── screen/
-│
-├── LICENSE
-└── README.md
+|
+|-- index.html
+|-- about.html
+|-- services.html
+|-- websites.html
+|-- video.html
+|-- vizual.html
+|-- real-estate.html
+|-- contact.html
+|
+|-- assets/
+|   |-- css/
+|   |-- js/
+|   |-- img/
+|   |-- screen/
+|
+|-- LICENSE
+|-- README.md
+
 
 ## Screenshots
 Preview images show the first sections of each page included in the full version.
