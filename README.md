@@ -1,18 +1,11 @@
-## Web‑Stud — Website Template Demo
-- This repository contains the demo version of the Web‑Stud website template.
-- It showcases the main landing page, design style, layout structure, and animations.
+## Web‑Stud — Website Template (full version)
+A professional website template for studios, agencies, freelancers and creative teams.
 
-- The full version of the template includes all pages, components, and source files and is available after purchase.
+## Overview
+- Web-Stud is a full-fledged multi-page web template designed to present services in the fields of web development, video production, 3D visualization and real estate.
+- The template is built on pure HTML, CSS and JavaScript, without heavy libraries - fast, responsive and ready to use in real projects.
 
-## Demo Includes
-- Main landing page (index.html)
-- Responsive layout
-- Clean and modern UI
-- Smooth animations
-- Optimized images
-- Mobile‑friendly navigation
-
-## Full Version (Available After Purchase) 
+## Full Version
 The complete template includes:
 - Home
 - About Us
@@ -27,7 +20,6 @@ The complete template includes:
 - Documentation
 - English version
 - (Optional) Slovak version
-To keep the product protected, only the main page is included in this public demo.
 
 ## Technologies
 - HTML5
@@ -35,10 +27,29 @@ To keep the product protected, only the main page is included in this public dem
 - JavaScript
 - Responsive Web Design
 
-## Preview Screenshots
-Preview images show the first sections of each page included in the full version.
+## Folder Structure
+web-stud/
+│
+├── index.html
+├── about.html
+├── services.html
+├── websites.html
+├── video.html
+├── vizual.html
+├── real-estate.html
+├── contact.html
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── img/
+│   └── screen/
+│
+├── LICENSE
+└── README.md
 
-## Screenshots:
+## Screenshots
+Preview images show the first sections of each page included in the full version.
 
 ### Home
 ![Home](/assets/screen/hero.JPG)
@@ -60,7 +71,12 @@ Preview images show the first sections of each page included in the full version
 Explore the live version of the template:  
 👉 **[Open Demo](https://liviiasolo.github.io/web-stud-demo/)**
 
+## License
+This template is licensed for personal and commercial use.  
+You can read the complete license terms here:
+👉 **[Full License](LICENCE.txt)** 
+
 
 ## Author
 Created by **Liviia Solo — Front‑end Developer**  
-👉 [Portfolio](https://liviiasolo.github.io/Portfolio/)
+👉 **[Portfolio](https://liviiasolo.github.io/Portfolio/)** 

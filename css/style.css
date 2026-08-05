@@ -28,8 +28,10 @@ table {
 --black: #000000;
 --gray: #ccc;
 
---navy-1: #0f172a;
---navy-2: #1b263e;
+--navy-1: #1e293b;
+
+--navy-2: #334155;
+
 --navy-3: #051937;
 --navy-soft: #9ab1d8;
 --navy-3-80: rgba(5, 25, 55, 0.8);
@@ -40,7 +42,7 @@ table {
 --blue-1: #2a4f8a;
 --blue-2: #38bdf8;
 
---slate: #475569;
+--slate: #64748b;
 --charcoal: #243144;
 
 --green-1: #84cc16;

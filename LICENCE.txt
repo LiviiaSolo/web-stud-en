@@ -4,16 +4,20 @@ Copyright © 2026 Liviia Solo
 Permission is granted to the purchaser to use this template for:
 – personal projects
 – commercial projects
-– client work
+– client work (one license per end‑product)
 – portfolio websites
+– internal company projects
+– CMS integration (WordPress, Webflow, etc.)
 
-The purchaser may modify the template, change the design, structure, styles, and scripts as needed for their project.
+The purchaser may modify the template, change the design, structure, styles, and scripts as needed for their project. 
+White‑label use (removing author credits) is allowed.
 
 Restrictions:
-– Resale, redistribution, or sharing of the template is prohibited.
+– Resale, redistribution, or sharing of the template (paid or free) is strictly prohibited.
 – Publishing the full source code publicly is prohibited.
 – Claiming authorship of the template is prohibited.
-– Using the template to create a competing product or template is prohibited.
+– Using the template to create a competing product, theme, or template is prohibited.
+– Using one purchase for multiple client projects is not allowed (one license = one end‑product)
 
 This license applies to all files included in the purchased version:
 HTML, CSS, JavaScript, images, assets, documentation, and all additional materials.
