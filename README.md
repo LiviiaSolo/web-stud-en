@@ -28,25 +28,7 @@ The complete template includes:
 - Responsive Web Design
 
 ## Folder Structure
-web-stud/
-|
-|-- index.html
-|-- about.html
-|-- services.html
-|-- websites.html
-|-- video.html
-|-- vizual.html
-|-- real-estate.html
-|-- contact.html
-|
-|-- assets/
-|   |-- css/
-|   |-- js/
-|   |-- img/
-|   |-- screen/
-|
-|-- LICENSE
-|-- README.md
+```web-stud/ | |-- index.html |-- about.html |-- services.html |-- websites.html |-- video.html |-- vizual.html |-- real-estate.html |-- contact.html | |-- assets/ | |-- css/ | |-- js/ | |-- img/ | |-- screen/ | |-- LICENSE |-- README.md ```
 
 
 ## Screenshots
